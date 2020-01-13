@@ -72,3 +72,17 @@ The `Makefile` helps you to compile the Java files.  There are two targets:
 The `.java` files are skeletons of the described classes.  Your job is to implement the empty methods.
 
 Finally, the `reference.json` file contains several execution code paths, and their reference behaviour.  This will be used to assess the correctness of your code.  More information will be given during the lab sessions.
+
+Provided that you have the correct implementation, you should observe the following:
+
+```
+$ make compile run
+mkdir -p target
+javac -d target -sourcepath ./src src/*.java
+java -cp ./target Main
+Jack (100)
+Course [Compilers]
+[1] Jack (100)
+[2] Jill (200)
+Total: 2
+```
