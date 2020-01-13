@@ -43,3 +43,32 @@ pulic class Course {
   public void print();
 }
 ```
+
+# Assignment
+
+You are to implement the two Java classes based on the templates provided in the Git repo.
+
+The repository has the following structure:
+
+```
+.
+|-- Makefile
+|-- README.md
+|-- reference.json
+`-- src
+    |-- Course.java
+    |-- Main.java
+    `-- Student.java
+```
+
+The `Makefile` helps you to compile the Java files.  There are two targets:
+
+- `compile`:
+  Compiles the Java files
+  
+- `run`:
+  Runs the `Main class`.
+  
+The `.java` files are skeletons of the described classes.  Your job is to implement the empty methods.
+
+Finally, the `reference.json` file contains several execution code paths, and their reference behaviour.  This will be used to assess the correctness of your code.  More information will be given during the lab sessions.
